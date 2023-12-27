@@ -2,9 +2,11 @@
 using namespace std;
 
 class mobile {
+
 private:
     string name;
     int price;
+    
 public:
     mobile(string n = "NULL", int p = 0) : name(n), price(p) {
     }
