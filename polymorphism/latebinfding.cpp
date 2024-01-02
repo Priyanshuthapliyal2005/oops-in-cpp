@@ -3,9 +3,10 @@ using namespace std;
 
 class person {
 public:
-    virtual void give() {
-        cout << "BUN";
-    }
+    // virtual void give() {
+    //     cout << "BUN";
+    // }
+    virtual void give()=0;
 };
 
 class boy : public person {
